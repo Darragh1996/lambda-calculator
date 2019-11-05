@@ -7,7 +7,7 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +19,33 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+  
+  .App{
+      display: flex;
+  }
+
+  .operators {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+
+  .btns-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+      justify-content: center;
+      margin: 10px auto;
+      width: 450px;
+  }
+
+  button {
+      font-size: 20px;
+      color: white;
+      width: 80px;
+      height: 50px;
+      margin: 5px 20px;
+      border-radius: 200px;
+      background-color: blue;
   }
